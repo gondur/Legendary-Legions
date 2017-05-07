@@ -1,0 +1,35 @@
+(In Engish)
+To play Legendary Legions by net one of the players must be server and the other must be client.
+
+SERVER settings:
+(Config your firewall to forward 9001 port)
+- Select: Options->Multiplayer->(first button)Server
+- Choose side, which you will play (Server player has right to choose and starts the game as first)
+- Go back to Main Menu and select map and start new game or load saved game
+
+CLIENT settings:
+- Select: Options->Multiplayer->(first button)Server
+- Enter IP address
+- Go back to Main Menu and start new game
+
+CHAT:
+Just type text and press ENTER to send it.
+
+
+
+(Po polsku)
+Aby zagraæ w Legendary Legions przez internet jeden z graczy musi byæ serwerem, a drugi klientem.
+
+Ustawianie SERWERA:
+(Ustaw firewall na forwardowanie portu 9001)
+- Kliknij kolejno: Opcje->Multiplayer->(pierwszy przycisk)Serwer
+- Wybierz strone, któr¹ bêdziesz graæ (gracz pe³ni¹cy role serwera ma pierwszenstwo wyboru i zaczyna gre jako pierwszy)
+- Wróæ do G³ównego Menu i wybierz mape i uruchom now¹ grê lub wczytaj zapisan¹ grê
+
+Ustawienia KLIENTA:
+- Kliknij kolejno: Opcje->Multiplayer->(pierwszy przycisk)Klient
+- Wpisz adres IP serwera
+- Wróæ do G³ównego Menu i wybierz now¹ grê
+
+CZAT:
+Wpisz tekst i wcisnij ENTER by go wyslac.

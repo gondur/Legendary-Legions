@@ -1,0 +1,18 @@
+DEVCPP (recommended 4.9.9.2 version)
+
+Download and install required libraries:
+
+From DevPaks:
+	libpng
+	loadpng
+	zlib
+	Allegro
+	AllegroMP3
+From: http://www.retrospec.sgn.net/allegro.php
+	Fblend for Mingw: http://www.retrospec.sgn.net/allegro/fblend05beta1.allegrogl.mingw.rar
+
+Compiler options:
+-w
+
+Linker options:
+-lfblend  -lalmp3 -lldpng -lpng -lz -lalleg -lkernel32 -luser32 -lgdi32 -lcomdlg32 -lole32 -ldinput -lddraw -ldxguid -lwinmm -ldsound -lwsock32

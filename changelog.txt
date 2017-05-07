@@ -1,0 +1,108 @@
+Since last update:
+
+(in English)
+- network multiplayer support (See: multiplayer.txt for instructions)
+- graphic feature: dynamic clouds with lightining
+- builder now can build tower or town
+- performance tweak: framelimiter
+- fixed bug: tower capture
+- some optimization and bugfixes
+
+- day/night cycle (with little graphic effect). If it's night (20h-8h) then dark forces gets +5% defense bonus. Good forces gets +5% defense bonus at day (9h-19h)
+- if friendly unit is within 1 field then your unit gets +10% defense bonus
+- you have 5% chance of recruiting the hero - his attributes are 2 times better than normal unit
+- new unit: builder (repairing castle, in future: building roads, buildings etc.)
+- repairing your castle by builder (only if he reach his castle, then repair button appears)
+- time to end the turn threw out :D
+- you can train your unit only reach yours castle (within 1 field)
+- you can heal your unit only reach yours castle/city (within 1 field)
+- fixed bug: popups with infos about finding food etc. did not display
+- German translation by Roebe XXX <shevegen@linuxmail.org>
+- Multilanguage support. At the moment only polish and partialy english versions but with possibility of adding spanish, italian, french and czech languages. Please translate it if you can. The files with text are: ll_*.cfg where * is abbreviation of full language name eg. sp is for spanish.
+- simple ai (computer is moving to the nearest enemy unit, heals, buys new units and technology), you can turn it off in options menu
+- new maps
+- better quality (graphics) of interface and menu background
+- towers
+- cities (10gp for every city per turn)
+- cities and towers can be captured
+- fps
+- optimization!!!
+- saving state of the game (ingame option menu)
+- new font
+- scenarios (saves for each map)
+- larger maps (60x60)
+- you can now go more than one move at once (estimating range for moving!)
+- 1024x768 resolution
+- new sprites: window (finding food, gold), forest, grass, mountains, beach
+- you can select units which don't have any move points (for training and healing)
+- new custom mouse cursor
+- time to end turn now 120 seconds
+- buying technology allows to buy new units
+- health bar is now only under active unit and unit pointed by mouse
+- transition between terrain
+- every turn units heals 0-5% of it's full HP
+- random events:
+  * there is 10% chance that you find 25-50 gold in mountains
+  * there is 10% chance that you hunt deer in forest and heal up to 5% of your max. HP
+  * there is 10% chance that you burn in lava (max. -20HP)
+- you can train units (raising experience for money)
+- non-linear leveling up
+- you can't have unit with more than 100 ability of attack, defense, agility (bugfix)
+- there is only 60 seconds for a turn to finish
+- 2000 gp at the begining
+- minimap is loading from file in load map menu
+- simple map editor (see readme.txt)
+- Training button which could raise your experience up to 25 points (expensive)
+
+(Po polsku)
+- gra przez siec (Przeczytaj multiplayer.txt)
+- dynamiczne chmury z blyskawicami
+- robotnik moze wybudowac wieze lub miasto
+- poprawiona wydajnosc: limit klatek na sekunde
+- bug: przejmowanie wie¿
+- troche optymalizacji i naprawionych bledow
+
+- wplyw pory dnia na parametry, si³y ciemnoœci maja zwiekszono o 5% obrone w nocy (20h-8h), si³y dobra w dzien (9h-19h)
+- jesli w poblizu jest swoja jednostka/zamek/miasto to bonus do obrony +10%
+- 5% szans rekrutacji herosa - jednostki o podwojonych atrybutach pocz¹tkowych
+- nowa jednostka robotnicy
+- naprawianie zamkow przez robotnikow, robotnik musi podejsc do zamku i pojawia sie przycisk "Napraw", który dziala jak "Ulecz".
+- wyrzucenie czasu na zakonczenie tury
+- trenowac mozna tylko w okolicy (1 pole) zamku
+- leczyc mozna sie tylko w poblizu (1 pole) zamku badz miasta
+- bug: niepokazywaly sie wyskakujace okienka z powiadomieniami
+- Niemieckie tlumaczenie gry napisane przez Roebe XXX <shevegen@linuxmail.org>
+- Wielojêzycznoœæ. W tym momencie tylko polski i czêœciowo angielski. Istnieje jednak mo¿liwoœæ przet³umaczenia na hiszpanski, wloski, francuski oraz czeski. Jeœli masz czas i umiesz któryœ z tych jêzyków to teksty zz gry znajduj¹ siê w plikach ll_*.cfg gdzie * to skrót danego jêzyka np. sp dla hiszpanskiego.
+- prosta sztuczna inteligencja (komputer atakuje najblizsza jednostke, leczy, kupuje jednostki i technologie), mozna wylaczyc w menu opcji
+- nowe mapki
+- lepsz jakosc intefejsu i tla menu
+- wieze
+- miasta (10gp co ture za miasto)
+- miasta i wieze mozna przejmowac
+- fps
+- optymalizacja!!!
+- zapisywanie stanu gry (menu opcji)
+- nowa czcionka
+- savy przypisane mapkom (aka scenariusze)
+- wieksze mapki 60x60
+- szacowanie drogi wokol jednostki
+- rozdzielczosc 1024x768
+- nowe rysunki: grafika okna, zdobycia jedzenia, zlota, poprawione krawedzie pol
+- mozna zaznaczac jednostke ktora nie ma ruchu
+- nowy kursor myszki
+- czas tury 120 sekund
+- kupowanie technologii, umozliwiaja zakup nowych jednostek
+- pasek sil tylko dla aktywnej jednostki i jednostki pod myszka
+- plynne przechodzenie terenu
+- co ture jednostka leczy sie od 0-5% swojego calego HP
+- przypadkowe wydarzenia np.
+	- w gorach 10% szans, ze znajdziesz zloza zlota
+	- w lesie 10% szans, ze znajdzie zwierzyne i sie iles tam punktow uleczysz
+	- lawa 10% szans, ze sie przypalisz :D max -5%
+- trenowanie jednostek zwieksza doswiadczenie (drogie)
+- progi doswiadczenia nieliniowe
+- nie mozna juz miec >100 ataku, obrony i zwinnosci
+- ograniczenie czasu na ture 1 minuta
+- kasa na poczatek 2000
+- miniatura mapy przy wczytywaniu map
+- prosty edytor map
